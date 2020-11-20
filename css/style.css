@@ -12,11 +12,27 @@ ul {
 }
 
 .grey {
-  background-color: lightgrey;
+  background-color: #fafafa;
 }
 
 .m-top {
   margin-top: 50px;
+}
+
+.m-bott {
+  margin-bottom: 20px;
+}
+
+.padd-25 {
+  padding: 25px;
+}
+
+.padd-100 {
+  padding: 100px 0;
+}
+
+.white {
+  color: white;
 }
 
 /* header */
@@ -81,35 +97,30 @@ ul.navbar-language :not(li:last-child) a {
 #prodotti .container .row .col-lg-6 .text-center img {
   width: 70%;
 }
-
-@media screen and (min-width:992px) {
-  .mr-25 {
-    margin-right: 25px;
-  }
-
-  .ml-25 {
-    margin-left: 25px;
-  }
-}
 /* end prima sezione */
 
 /* seconda sezione */
-#steps .container .row .col-lg-12 {
+.smart-mobility {
   background-image: url("../img/scooter.f0a0397.jpg");
-  width: 100%;
+  background-size: cover;
+}
+
+#steps .container .row .col-lg-6 .col-lg-4 h2 {
+  margin-bottom: 30px;
+}
+
+#steps .container .row .col-lg-6 .col-lg-4 p {
+  margin-bottom: 20px;
+}
+
+#steps .container .row .col-lg-6 .col-lg-4 a {
+  color: white;
 }
 
 
-@media screen and (min-width:768px) and (max-width:992px) {
-  .jumbo h1 {
-    font-size: 26px;
-  }
 
-  .mr-25 {
-    margin-right: 25px;
-  }
 
-  .ml-25 {
-    margin-left: 25px;
-  }
-}
+
+
+
+dfghgadfshgfd
