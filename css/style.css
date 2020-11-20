@@ -91,6 +91,13 @@ ul.navbar-language :not(li:last-child) a {
     margin-left: 25px;
   }
 }
+/* end prima sezione */
+
+/* seconda sezione */
+#steps .container .row .col-lg-12 {
+  background-image: url("../img/scooter.f0a0397.jpg");
+  width: 100%;
+}
 
 
 @media screen and (min-width:768px) and (max-width:992px) {
