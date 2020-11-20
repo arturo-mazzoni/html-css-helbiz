@@ -1,0 +1,104 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+/* header */
+.header-top {
+  height: 80px;
+  line-height: 80px;
+}
+
+ul.navbar-menu li,
+ul.navbar-language li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+ul.navbar-menu li a,
+ul.navbar-language li a {
+  color: #343434;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-top .logo {
+  vertical-align: middle;
+}
+
+ul.navbar-language :not(li:last-child) a {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+/* jumbo */
+.jumbo {
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.jumbo h1 {
+  font-size: 32px;
+}
+
+.jumbo p {
+  margin: 10px 0;
+}
+
+.jumbo .testo {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+}
+/* end jumbo */
+
+
+/* prima sezione */
+#prodotti .container .row .col-lg-6 .text-center img {
+  width: 70%;
+}
+
+@media screen and (min-width:992px) {
+  .mr-25 {
+    margin-right: 25px;
+  }
+
+  .ml-25 {
+    margin-left: 25px;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  .jumbo h1 {
+    font-size: 26px;
+  }
+
+  .mr-25 {
+    margin-right: 25px;
+  }
+
+  .ml-25 {
+    margin-left: 25px;
+  }
+}
